@@ -20,7 +20,7 @@
                 ["modifyvm", "{{.Name}}", "--memory", "{{user `memory`}}"],
                 ["modifyvm", "{{.Name}}", "--cpus", "{{user `cpus`}}"]
             ],
-            "iso_url": "D:\\CentOS-7-x86_64-NetInstall-1611.iso",
+            "iso_url": "http://mirror.liquidtelecom.com/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1611.iso",
             "iso_checksum": "f2f7367deb90a25822947660c71638333ca0eceeabecc2d631be6cd508c24494",
             "iso_checksum_type": "sha256",
             "http_directory": "http",
